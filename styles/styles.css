@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@400;500&display=swap');
 
 
 /*//////////////////////////////////
@@ -30,10 +30,12 @@ Table of Contents:
     margin: 0;
     padding: 0;
 }
-a{
-  color: #899CA0;
+
+a {
+    color: #899CA0;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
 
@@ -52,13 +54,6 @@ input, button {
     font-size: inherit;
 }
 
-.contact {
-    border-radius: 25px;
-    padding: 15px 15px;
-    background-color: black;
-    color: white;
-    margin-left: -850px
-}
 
 /*////////////////////////
     3. Areas
@@ -78,12 +73,13 @@ main {
 }
 
 .header-section div {
+
     align-content: center;
     background-size: 1000px;
 }
 
 .header-section h1 {
-    padding: -150px;
+
     font-size: 70px;
     font-weight: 600;
     line-height: 1.6;
@@ -91,15 +87,18 @@ main {
 
 .header-section p {
     line-height: 3;
+    margin: 15px;
 }
 
 .header-section label + button {
     margin-left: -6px;
 
+
 }
 
 .header-section button {
 
+    border: 2px solid black;
     border-radius: 0 10px 10px 0;
     padding: 10px 15px;
     background-color: black;
@@ -107,6 +106,7 @@ main {
 }
 
 .check-domain {
+    border: 2px solid black;
     text-align: left;
     border-radius: 10px 0 0 10px;
     padding: 10px 50px;
@@ -116,17 +116,38 @@ main {
 
 
 /*///////////// 3.2 Testimonial /////////////*/
-.review{
+.review {
     box-shadow: 5px 5px 5px 5px #899CA0;
     border-radius: 10px;
-    padding:80px;
+    padding: 20px 50px;
     margin: 60px;
 }
-/*.review2{
-    box-shadow: 5px 5px 5px 5px #899CA0;
-    border-radius: 20px;
-    padding:80px;
-}*/
+.quote{
+
+    margin-top: 40px;
+    text-align: left;
+}
+.quote img {
+
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+
+}
+.avatar{
+
+    text-align: left;
+    padding:40px 5px;
+
+}
+
+.avatar img {
+    vertical-align: middle;
+    display: inline;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+}
 
 
 /*///////////// 3.3 Support /////////////*/
@@ -134,13 +155,24 @@ img {
     width: 100%;
     border-radius: 10px;
 }
-.helpen{
+
+.helpen {
     text-align: left;
     margin-bottom: 20px;
 }
 
+.contact {
+
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    margin-left: -850px
+}
+
 /*///////////// 3.4 Faq /////////////*/
-.vragen{
+.vragen {
     margin: 50px;
 }
 
@@ -149,9 +181,11 @@ details {
     text-align: left;
     margin: 20px;
 }
-details summary:hover{
+
+details summary:hover {
     cursor: pointer;
 }
+
 details > summary {
 
     padding: 2px 2px;
@@ -173,5 +207,5 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
